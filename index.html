@@ -25,8 +25,8 @@
 
 <script>
 
-  function codeAddress() {
-    url:"Error_Code.csv",
+  $.ajax({
+   url:"Error_Code.csv",
    dataType:"text",
    success:function(data)
    {
@@ -49,10 +49,10 @@
      }
      table_data += '</tr>';
     }
-    table_data += '</table>';}
-
-window.onload = codeAddress;
-
-
+    table_data += '</table>';
+    $('#Error_Code').html(table_data);
+   }
+  });
+ 
 </script>
 
