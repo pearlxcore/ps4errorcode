@@ -16,7 +16,7 @@
      <button type="button" name="load_data" id="load_data" class="btn btn-info">Load Data</button>
     </div>
     <br />
-    <div id="employee_table">
+    <div id="Error_Code">
     </div>
    </div>
   </div>
@@ -24,10 +24,9 @@
 </html>
 
 <script>
-$(document).ready(function(){
- $('#load_data').click(function(){
-  $.ajax({
-   url:"Error_Code.csv",
+
+  function codeAddress() {
+    url:"Error_Code.csv",
    dataType:"text",
    success:function(data)
    {
@@ -50,11 +49,10 @@ $(document).ready(function(){
      }
      table_data += '</tr>';
     }
-    table_data += '</table>';
-    $('#Error_Code').html(table_data);
-   }
-  });
- });
- 
-});
+    table_data += '</table>';}
+
+window.onload = codeAddress;
+
+
 </script>
+
