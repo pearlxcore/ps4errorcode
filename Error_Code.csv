@@ -1,9 +1,9 @@
-Error_code,Name,Return_code,Remarks
+Error code,Name,Return code,Remarks
 CE-30001-4,SCE_KERNEL_ERROR_EPERM,0x80020001,Operation not permitted
 CE-30002-5,SCE_KERNEL_ERROR_ENOENT,0x80020002,No such file or directory
 CE-30003-6,SCE_KERNEL_ERROR_ESRCH,0x80020003,No such process
 CE-30004-7,SCE_KERNEL_ERROR_EINTR,0x80020004,Interrupted system call
-CE-30005-8,SCE_KERNEL_ERROR_EIO,0x80020005,"Input/output error // Access to HDD or Blu-Ray failed // Step 1: Eject the disc from the PS4 system, and check that the disc is not dirty or damaged. Then retry. Step 2: Back up the data using a USB device or PS+ online storage. Then, delete the application by pressing the Options button and choosing ""Delete"" from the content area. Reload the data from the USB or online storage. Step 3: If the error occurs again, please visit our Contact page to contact SCEA for additional technical support."
+CE-30005-8,SCE_KERNEL_ERROR_EIO,0x80020005,"Input/output error // Access to HDD or Blu-Ray failed // Step 1: Eject the disc from the PS4 system, and check that the disc is not dirty or damaged. Then retry. Step 2: Back up the data using a USB device or PS+ online storage. Then, delete the application by pressing the Options button and choosing ""Delete"" from the content area. Reload the data from the USB or online storage. Step 3: If the error occurs again, please visit ourÂ ContactÂ page to contact SCEA for additional technical support."
 CE-30006-9,SCE_KERNEL_ERROR_ENXIO,0x80020006,Device not configured
 CE-30007-0,SCE_KERNEL_ERROR_E2BIG,0x80020007,Argument list too long
 CE-30008-1,SCE_KERNEL_ERROR_ENOEXEC,0x80020008,Exec format error
@@ -95,9 +95,9 @@ CE-30092-4,,,Protocol error
 CE-30093-5,,,Capabilities insufficient
 CE-30094-6,,,Not permitted in capability mode
 CE-30095-7,,,Block not ready
-CE-30392-7,,,"Hardware Error. // Your system likely needs to be serviced. Please visit our Contact page to set up service. Check system clock / time. If it's reset, change CMOS battery and test. If that fails and/or is OK, replace Mediacon (Southbridge) IC."
+CE-30392-7,,,"Hardware Error. // Your system likely needs to be serviced. Please visit ourÂ ContactÂ page to set up service. Check system clock / time. If it's reset, change CMOS battery and test. If that fails and/or is OK, replace Mediacon (Southbridge) IC."
 CE-30559-2,SCE_SBL_ERROR_NPDRM_ESIGN,0x800F0A24,Cannot start the application.
-CE-30608-7,,,Hardware Error. // Your system likely needs to be serviced. Please visit our Contact page to set up service.
+CE-30608-7,,,Hardware Error. // Your system likely needs to be serviced. Please visit ourÂ ContactÂ page to set up service.
 CE-30614-4,,,out of memory
 CE-30615-5,,,file IO error
 CE-30616-6,,,invalid parameters
@@ -604,7 +604,7 @@ CE-32793-4,,,DOM Max Size of Attribute Name
 CE-32794-5,,,DOM Max Size of Attribute Value
 CE-32795-6,,,DOM Invalid Entity
 CE-32796-7,,,DOM Invalid Node Type
-CE-32807-0,,,"License Error // Step 1: If you have previously activated the system as your Primary PS4, go to [Settings] > [PSN] > [Activate as Your Primary PS4], deactivate, and then reactivate. Step 2: Go to [Settings] > [PSN] > [Restore Licenses],and choose the restore option. Step 3: If the error occurs again, please try again later. You can also check the status of the PSN here."
+CE-32807-0,,,"License Error // Step 1: If you have previously activated the system as your Primary PS4, go to [Settings] > [PSN] > [Activate as Your Primary PS4], deactivate, and then reactivate. Step 2: Go to [Settings] > [PSN] > [Restore Licenses],and choose the restore option. Step 3: If the error occurs again, please try again later.Â You can also check the status of the PSN here."
 CE-32812-6,,,Not enough memory to run
 CE-32813-7,,,Parameter is invalid
 CE-32814-8,,,Dictionary data is invalid
@@ -670,7 +670,7 @@ CE-32885-6,,,Library has already been initialized
 CE-32886-7,,,Specified data is broken
 CE-32887-8,,,Could not find specified element
 CE-32888-9,,,The format of the specified parameter was not appropriate
-CE-32889-0,,,"Specified ID was not appropriate // Download has cancelled because the downloading of this content has previously been started and experienced an error. // Step 1: Go to [Notifications] > [Downloads] and check the content is on the list. Delete the content from [Options], and retry downloading the content from the Library. Step 2: If you fail downloading the content again, back up the data using USB device or PS+ online storage, and then go to Safe Mode to try ?4.Rebuild Database]. You can find more information on Safe Mode here. After the Rebuild Database is finished, bring back the data and retry your download from the Library. Step 3: If the error occurs again, go to [Settings] > [Initialization] > [Initialize PS4] and try the PS4 initialization."
+CE-32889-0,,,"Specified ID was not appropriate // Download has cancelled because the downloading of this content has previously been started and experienced an error. // Step 1: Go to [Notifications] > [Downloads] and check the content is on the list. Delete the content from [Options], and retry downloading the content from the Library. Step 2: If you fail downloading the content again, back up the data using USB device or PS+ online storage, and then go to Safe Mode to try ?4.Rebuild Database]. You can find moreÂ information on Safe Mode here. After the Rebuild Database is finished, bring back the data and retry your download from the Library. Step 3: If the error occurs again, go to [Settings] > [Initialization] > [Initialize PS4] and try the PS4 initialization."
 CE-32890-2,,,Specified parameter was not appropriate
 CE-32891-3,,,The size is out of predefined range
 CE-32892-4,,,Unknown error
@@ -699,14 +699,14 @@ CE-32924-0,,,
 CE-32925-1,,,
 CE-32926-2,,,
 CE-32927-3,,,
-CE-32928-4,,,"Download has cancelled because the downloading of this content has previously been started and experienced an error. // Step 1: Go to [Notifications] > [Downloads] and check the content is on the list. Delete the content from [Options], and retry downloading the content from the Library. Step 2: If you fail downloading the content again, back up the data using USB device or PS+ online storage, and then go to Safe Mode to try ?4.Rebuild Database]. You can find more information on Safe Mode here. After the Rebuild Database is finished, bring back the data and retry your download from the Library. Step 3: If the error occurs again, go to [Settings] > [Initialization] > [Initialize PS4] and try the PS4 initialization."
+CE-32928-4,,,"Download has cancelled because the downloading of this content has previously been started and experienced an error. // Step 1: Go to [Notifications] > [Downloads] and check the content is on the list. Delete the content from [Options], and retry downloading the content from the Library. Step 2: If you fail downloading the content again, back up the data using USB device or PS+ online storage, and then go to Safe Mode to try ?4.Rebuild Database]. You can find moreÂ information on Safe Mode here. After the Rebuild Database is finished, bring back the data and retry your download from the Library. Step 3: If the error occurs again, go to [Settings] > [Initialization] > [Initialize PS4] and try the PS4 initialization."
 CE-32937-4,,,"Failed to download data. // Step 1: Select ""Retry"" on the error message. Cancel download, and retry from the beginning. Step 2: Restart the PS4 and try your download again. Step 3: If the error persists, the network connection may be temporary busy or unstable. Cancel the download and retry after a while."
 CE-32942-0,,,"The extension of the URL specified with ""Download a Package"" > ""Package URL"" or the extension of content_url specified with content_list.json may not be .pkg/.PKG. Check that the URL extension of the content is .pkg/.PKG"
 CE-32943-1,,,
 CE-32944-2,,,
 CE-32945-3,,,"The Content ID specified with ""Download a Package"" >""Content ID"" or the id specified with content_list.json may not be matching the Content ID of the package file. Check the specification of ""Download a Package"" > ""Content ID"" and the Content ID of PARAM.SFO."
 CE-32946-4,,,
-CE-32947-5,,,"Could not download the file. // Step 1: Try the Internet connection test at [Settings] > [Network] > [Test Internet Connection]. Check that the internet status is valid. Step 2: Delete the content (if it is shown in content area), and try redownloading the content from Library. Step 3: If the error occurs again, please visit our Contact page to contact SCEA for additional technical support."
+CE-32947-5,,,"Could not download the file. // Step 1: Try the Internet connection test at [Settings] > [Network] > [Test Internet Connection]. Check that the internet status is valid. Step 2: Delete the content (if it is shown in content area), and try redownloading the content from Library. Step 3: If the error occurs again, please visit ourÂ ContactÂ page to contact SCEA for additional technical support."
 CE-32957-6,,,"The Content ID specified with ""Download a Package"" >""Content ID"", the id specified with content_list.json, or the Content ID of the package file is of an invalid format. Check the specified Content ID and the Content ID of PARAM.SFO."
 CE-32958-7,,,Application could not be started
 CE-33069-1,,,Canceled
@@ -1040,7 +1040,7 @@ CE-33717-1,,,sce function error Core
 CE-33718-2,,,kernel function error Core
 CE-33719-3,,,ipmi inter process communication error
 CE-33720-5,,,internal program error Core
-CE-33743-0,,,Connection to server failed // The PS4 was unable to connect to the server. Please try again later. You can check the status of the PSN here.
+CE-33743-0,,,Connection to server failed // The PS4 was unable to connect to the server. Please try again later.Â You can check the status of the PSN here.
 CE-33755-3,,,invalid argument
 CE-33756-4,,,invalid port
 CE-33757-5,,,invalid handle
@@ -1058,7 +1058,7 @@ CE-33851-0,,,No events to obtain
 CE-33852-1,,,Perform default operations without setting an HTTP response
 CE-33853-2,,,HTTP server is already started
 CE-33854-3,,,HTTP server is not started
-CE-33945-4,,,Connection to server failed // The PS4 was unable to connect to the server. Please try again later. You can check the status of the PSN here.
+CE-33945-4,,,Connection to server failed // The PS4 was unable to connect to the server. Please try again later.Â You can check the status of the PSN here.
 CE-33950-0,,,Could not connect to the server to verify the license // There may be an issue with the server. Please try again later.
 CE-33951-1,,,Unknown error. This value should not be used.
 CE-33952-2,,,The specified port does not exist.
@@ -1068,16 +1068,16 @@ CE-33955-5,,,Not enough memory to perform the operation.
 CE-33956-6,,,Not enough resources to perform the operation.
 CE-33957-7,,,The operation cannot be performed at the moment.
 CE-33958-8,,,Too many channels specified.
-CE-33987-0,,,Internet Connection test error Retry the Internet connection test. It's also possible that the PSN may be be undergoing maintenance. You can check the status of the PSN here.
-CE-33983-6,,,Internet Connection test error Retry the Internet connection test. It's also possible that the PSN may be be undergoing maintenance. You can check the status of the PSN here.
-CE-33984-7,,,Internet Connection test error Retry the Internet connection test. It's also possible that the PSN may be be undergoing maintenance. You can check the status of the PSN here.
-CE-33985-8,,,Internet Connection test error Retry the Internet connection test. It's also possible that the PSN may be be undergoing maintenance. You can check the status of the PSN here.
-CE-33986-9,,,Internet Connection test error Retry the Internet connection test. It's also possible that the PSN may be be undergoing maintenance. You can check the status of the PSN here.
-CE-33988-1,,,Internet Connection test error Retry the Internet connection test. It's also possible that the PSN may be be undergoing maintenance. You can check the status of the PSN here.
-CE-33989-2,,,Internet Connection test error Retry the Internet connection test. It's also possible that the PSN may be be undergoing maintenance. You can check the status of the PSN here.
-CE-33990-4,,,Internet Connection test error Retry the Internet connection test. It's also possible that the PSN may be be undergoing maintenance. You can check the status of the PSN here.
+CE-33987-0,,,Internet Connection test error Retry the Internet connection test. It's also possible that the PSN may be be undergoing maintenance.Â You can check the status of the PSN here.
+CE-33983-6,,,Internet Connection test error Retry the Internet connection test. It's also possible that the PSN may be be undergoing maintenance.Â You can check the status of the PSN here.
+CE-33984-7,,,Internet Connection test error Retry the Internet connection test. It's also possible that the PSN may be be undergoing maintenance.Â You can check the status of the PSN here.
+CE-33985-8,,,Internet Connection test error Retry the Internet connection test. It's also possible that the PSN may be be undergoing maintenance.Â You can check the status of the PSN here.
+CE-33986-9,,,Internet Connection test error Retry the Internet connection test. It's also possible that the PSN may be be undergoing maintenance.Â You can check the status of the PSN here.
+CE-33988-1,,,Internet Connection test error Retry the Internet connection test. It's also possible that the PSN may be be undergoing maintenance.Â You can check the status of the PSN here.
+CE-33989-2,,,Internet Connection test error Retry the Internet connection test. It's also possible that the PSN may be be undergoing maintenance.Â You can check the status of the PSN here.
+CE-33990-4,,,Internet Connection test error Retry the Internet connection test. It's also possible that the PSN may be be undergoing maintenance.Â You can check the status of the PSN here.
 CE-33991-5,,,Get the status of the non HTTP_GET_200 in Internet connection. // Retry Internet Connection test.
-CE-33992-6,,,Make sure you are signed in to PSN before you start the connection test. It's also possible that the PSN may be be undergoing maintenance. You can check the status of the PSN here.
+CE-33992-6,,,Make sure you are signed in to PSN before you start the connection test. It's also possible that the PSN may be be undergoing maintenance.Â You can check the status of the PSN here.
 CE-33994-8,,,The Dialog has not been initialized
 CE-33995-9,,,The Dialog is already initialized.
 CE-33996-0,,,It is an invalid parameter
@@ -1153,7 +1153,7 @@ CE-34186-2,,,A file open error occurred
 CE-34187-3,,,A file seek error occurred
 CE-34188-4,,,A file read error occurred
 CE-34189-5,,,A file close error occurred
-CE-34224-5,,,"Integrity check error // System internal error // Step 1: Back up your saved data using a USB device or PS+ online storage. Go to [Settings] > [Initialization] > [Initialize PS4] and try the PS4 initialization. Step 2: Restore your saved data. Step 3: If the error occurs again there may be an issue with the PS4's hard drive (HDD). If you have previously changed the HDD, use the other HDD. If not, please visit our Contact page to contact SCEA for additional technical support."
+CE-34224-5,,,"Integrity check error // System internal error // Step 1: Back up your saved data using a USB device or PS+ online storage. Go to [Settings] > [Initialization] > [Initialize PS4] and try the PS4 initialization. Step 2: Restore your saved data. Step 3: If the error occurs again there may be an issue with the PS4's hard drive (HDD). If you have previously changed the HDD, use the other HDD. If not, please visit ourÂ Contact pageÂ to contact SCEA for additional technical support."
 CE-34225-6,,,File not found in PlayGo chunk definition
 CE-34341-5,,,Invalid mix level value
 CE-34342-6,,,overflow
@@ -1192,10 +1192,10 @@ CE-34877-9,,,Cannot play PlayStation 3 format disc.
 CE-34878-0,,,Application has crashed. // Restart the application in the content area.
 CE-35463-1,,,"The disc cannot be played // Step 1: Copied media, CD's, and 3D Blu-Ray movies cannot be played. Please verify that the type of disc you're trying to play is supported by the PS4. Step 2: Make sure the disc you're trying to play isn't dirty, scratched, or otherwise damaged."
 CE-35230-3,,,Network Error. Response speed from DNS server is likely delayed. // Step 1: Go to [Settings] > [Network] > [Set Up Internet Connection] > [Custom] and change the DNS settings.
-CE-35657-6,,,"Cannot start the application. Application data may be corrupted. // Step 1: Go to [Notifications] > [Downloads] and delete the failure notification. Step 2: Back up your data using USB device or PS+ online storage, and then go to Safe Mode to try [5.Rebuild Database]. You can find more information on Safe Mode here. Step 3: If the error occurs again, go to [Settings] > [Initialization] > [7. Initialize PS4 (Reinstall System Software)] and try the PS4 initialization.). Note: This requires a USB device with the system update file. Information on updating via USB is located here."
+CE-35657-6,,,"Cannot start the application. Application data may be corrupted. // Step 1: Go to [Notifications] > [Downloads] and delete the failure notification. Step 2: Back up your data using USB device or PS+ online storage, and then go to Safe Mode to try [5.Rebuild Database]. You can find more information on Safe Mode here. Step 3: If the error occurs again, go to [Settings] > [Initialization] > [7. Initialize PS4 (Reinstall System Software)] and try the PS4 initialization.). Note: This requires a USB device with the system update file. Information on updating via USB is locatedÂ here."
 CE-35662-2,,,"The numbers of chunks for the application and patch do not match. When creating a patch package of a PlayGo supporting application, the number of chunks included in the patch package must be the same as the game directory."
-CE-35888-2,,,"Cannot start the application. // Wrong daughterboard in drive, see also : https://www.youtube.com/watch?feature=player_detailpage&v=pPRvG6oRV1E#t=349 / BDP-025"
-CE-36244-9,,,"Downloaded data may be corrupted // Step 1: Delete the content from home screen, then restart the system. Next, re-download the content from the Library. Step 2: If the error persists, go to [Settings] > [Initialization] > [Initialize PS4] and try the PS4 initialization. Step 3: If the error occurs again there may be an issue with the PS4's hard drive (HDD). If you have previously changed the HDD, use the other HDD. If not, please visit our Contact page to contact SCEA for additional technical support."
+CE-35888-2,,,"Cannot start the application. // Wrong daughterboard in drive, see alsoÂ :Â https://www.youtube.com/watch?feature=player_detailpage&v=pPRvG6oRV1E#t=349Â /Â BDP-025"
+CE-36244-9,,,"Downloaded data may be corrupted // Step 1: Delete the content from home screen, then restart the system. Next, re-download the content from the Library. Step 2: If the error persists, go to [Settings] > [Initialization] > [Initialize PS4] and try the PS4 initialization. Step 3: If the error occurs again there may be an issue with the PS4's hard drive (HDD). If you have previously changed the HDD, use the other HDD. If not, please visit ourÂ Contact pageÂ to contact SCEA for additional technical support."
 CE-36329-3,,,
 CE-36433-9,,,The original application package specified upon creating the patch package and the original application installed onto the Development Kit/Testing Kit may not be matching. Check that the original application package specified upon creating the patch package is installed on the Development Kit/Testing Kit.
 CE-37533-1,,,"Face recognition error. // An occurred during face recognition log-in. It is possible that the face data is corrupted. Step 1: Log in to the system, and re-register the face data. Step 2: If the error occurs again, face data of other users on the PS4 system may be corrupted. Log-in to other user and re-register the face data."
@@ -1205,31 +1205,31 @@ CE-37536-4,,,"Face recognition error. // An occurred during face recognition log
 CE-37537-5,,,"Face recognition error. // An occurred during face recognition log-in. It is possible that the face data is corrupted. Step 1: Log in to the system, and re-register the face data. Step 2: If the error occurs again, face data of other users on the PS4 system may be corrupted. Log-in to other user and re-register the face data."
 CE-37538-6,,,"Face recognition error. // An occurred during face recognition log-in. It is possible that the face data is corrupted. Step 1: Log in to the system, and re-register the face data. Step 2: If the error occurs again, face data of other users on the PS4 system may be corrupted. Log-in to other user and re-register the face data."
 CE-38612-0,,,Application data on HDD may be partially corrupted
-E-800085D1,,0x800085D1,Connection to server failed. // The PS4 was unable to connect to the server. Please try again later. Refer to PSN Status.
+E-800085D1,,0x800085D1,Connection to server failed. // The PS4 was unable to connect to the server. Please try again later. Refer toÂ PSN Status.
 E-801809A8,,0x801809A8,Detached or Broken / Malfunctional Blu-ray BD-ROM Drives
 E-80411302,,0x80411302,"Internal error // Step 1: Close the application and restart the system. If this happens while in the PS Store, close the store and retry. Step 2: If the error occurs again, back up your saved data, and then go to [Settings] > [Initialization] and choose [Initialize PS4]."
 E-80E80034,,0x80E80034,// PSN connection related error.
-E-80F00800,,0x80F00800,"Downloaded data may be corrupted // Step 1: Delete the content from home screen and re-download the content from the Library. Step 2: If the error persists, go to [Settings] > [Initialization] > [Initialize PS4] and try the PS4 initialization. Step 3: If the error occurs again there may be an issue with the PS4's hard drive (HDD). If you have previously changed the HDD, use the other HDD. If not, please visit our Contact page to contact SCEA for additional technical support."
-E-8200002E,,0x8200002E,The credit card information is not valid. // Remove credit card from an account and then re-enter the credit card information. Refer to Add / Remove Billing Information.
+E-80F00800,,0x80F00800,"Downloaded data may be corrupted // Step 1: Delete the content from home screen and re-download the content from the Library. Step 2: If the error persists, go to [Settings] > [Initialization] > [Initialize PS4] and try the PS4 initialization. Step 3: If the error occurs again there may be an issue with the PS4's hard drive (HDD). If you have previously changed the HDD, use the other HDD. If not, please visit ourÂ ContactÂ page to contact SCEA for additional technical support."
+E-8200002E,,0x8200002E,The credit card information is not valid. // Remove credit card from an account and then re-enter the credit card information. Refer toÂ Add / Remove Billing Information.
 E-82000102,,0x82000102,"Server returned ""Unknown Error"" // Try again. If the error happens on PS Store, close the store and retry. If the error persists, exit store and Sign-out and Sign-in to PSN at [Settings] > [PSN]."
 E-82000113,,0x82000113,Voucher error // The server was unable to verify the voucher. Please try again later.
 E-8200012F,,0x8200012F,Invalid voucher code // The code you entered may not be correct or may no longer be valid. // Please check your entry.
 E-82000134,,0x82000134,Product voucher region does not match the account's region // This product or content is not available in your account's country/region.
-E-82000138,,0x82000138,"Failed to add funds to wallet using a voucher or PSN card. // Verify that redeeming the code will not put your wallet over the $150 limit. If it does, redeem the code at a later date when your balance is lower. If you aren't at the limit and still get this error, please try again later. Refer to Article on code redemption issues ."
+E-82000138,,0x82000138,"Failed to add funds to wallet using a voucher or PSN card. // Verify that redeeming the code will not put your wallet over the $150 limit. If it does, redeem the code at a later date when your balance is lower. If you aren't at the limit and still get this error, please try again later. Refer toÂ Article on code redemption issuesÂ ."
 E-82000156,,0x82000156,"Rate limit exceeded // For security reasons, there are limits on how many times and how fast you can enter credit card and voucher code information. Try again later."
-E-82000163,,0x82000163,"The home address registered on your PSN account does not match the address for your credit card. // It is not currently possible to change your address via the PS4's PSN settings, so you'll need to use the web browser (PS4, PC, or mobile device) to change it via SonyEntertainmentNetwork.com."
-E-82000171,,0x82000171,"Credit card on file is invalid. // Verify that your credit card number and expiration date are valid and up to date. If this does not solve your issue, please read this article on correcting billing errors."
-E-820001F7,,0x820001F7,PSN is undergoing maintenance. // PSN is undergoing maintenance. Please try again later. You can check the status of the PSN here.
+E-82000163,,0x82000163,"The home address registered on your PSN account does not match the address for your credit card. // It is not currently possible to change your address via the PS4's PSN settings, so you'll need to use the web browser (PS4, PC, or mobile device) to change it viaÂ SonyEntertainmentNetwork.com."
+E-82000171,,0x82000171,"Credit card on file is invalid. // Verify that your credit card number and expiration date are valid and up to date. If this does not solve your issue, pleaseÂ read this article on correcting billing errors."
+E-820001F7,,0x820001F7,PSN is undergoing maintenance. // PSN is undergoing maintenance. Please try again later. You canÂ check the status of the PSN here.
 E-8220400D,,0x8220400D,An error has occurred.
-E-82E0001C,,0x82E0001C,The user has been banned or suspended. Please refer to this support article for more information on bans and suspensions.
+E-82E0001C,,0x82E0001C,The user has been banned or suspended. Please refer to thisÂ support articleÂ for more information on bans and suspensions.
 E-82E0001D,,0x82E0001D,Access to Sony Entertainment Network from this PS4 has been banned or temporarily suspended.
-E-82E01050,,0x82E01050,The user has been banned or suspended. Please refer to this support article for more information on bans and suspensions.
-E-82E101F6,,0x82E101F6,Connection to server failed. // The PS4 was unable to connect to the server. Please try again later. Refer to PSN Status.
-E-82E101F7,,0x82E101F7,PSN is undergoing maintenance // PSN is undergoing maintenance. Please try again later. You can check the status of the PSN here.
-E-82F001F8,,0x82F001F8,Connection to server failed. // The PS4 was unable to connect to the server. Please try again later. Refer to PSN Status.
+E-82E01050,,0x82E01050,The user has been banned or suspended. Please refer to thisÂ support articleÂ for more information on bans and suspensions.
+E-82E101F6,,0x82E101F6,Connection to server failed. // The PS4 was unable to connect to the server. Please try again later. Refer toÂ PSN Status.
+E-82E101F7,,0x82E101F7,PSN is undergoing maintenance // PSN is undergoing maintenance. Please try again later.Â You can check the status of the PSN here.
+E-82F001F8,,0x82F001F8,Connection to server failed. // The PS4 was unable to connect to the server. Please try again later. Refer toÂ PSN Status.
 E-8F000001,,0x8F000001,"Purchased Failed // Purchase the game directly from the PS Store, not from inside the game demo (e.g. Doki Doki Universe)."
-E-FFFFFFFF,,0xFFFFFFFF,"System internal error. // Update your system software to the latest version. If the error occurs again, please visit our Contact page to contact SCEA for additional technical support."
-E-8231CFB1,,0x8231CFB1,Error related to Spotify App.
+E-FFFFFFFF,,0xFFFFFFFF,"System internal error. // Update your system software to the latest version. If the error occurs again, please visit ourÂ ContactÂ page to contact SCEA for additional technical support."
+E-8231CFB1,,0x8231CFB1,Error related toÂ SpotifyÂ App.
 NP-31734-8,SCE_NP_ERROR_NOT_SIGNED_UP,0x8055000A,Called in the not signed-up state
 NP-31735-9,SCE_NP_ERROR_AGE_RESTRICTION,0x8055000B,Applicable to age restriction
 NP-31736-0,SCE_NP_ERROR_LOGOUT,0x8055000C,Called in the log out state
@@ -1241,17 +1241,17 @@ NP-31765-2,SCE_NP_AUTH_ERROR_CONSOLE_ID_SUSPENDED,0x80550427,Use of the client c
 NP-31766-3,SCE_NP_AUTH_ERROR_ACCOUNT_CLOSED,0x80550430,Account closed
 NP-31767-4,SCE_NP_AUTH_ERROR_ACCOUNT_SUSPENDED,0x80550431,Account suspended
 NP-31831-6,SCE_NP_COMMUNITY_SERVER_ERROR_PLAYER_BANNED,0x8055080A,User is banned
-NP-31952-0,SCE_NP_MATCHING2_ERROR_TIMEDOUT,0x80550C36,Could not connect to the network // Retry the Internet connection test and make sure all of your network settings are correct. It's also possible that the PSN may be be undergoing maintenance. You can check the status of the PSN here.
+NP-31952-0,SCE_NP_MATCHING2_ERROR_TIMEDOUT,0x80550C36,Could not connect to the network // Retry the Internet connection test and make sure all of your network settings are correct. It's also possible that the PSN may be be undergoing maintenance.Â You can check the status of the PSN here.
 NP-31962-1,SCE_NP_MATCHING2_SERVER_ERROR_PLAYER_BANNED,0x80550D06,User banned
 NP-31987-8,SCE_NP_MATCHING2_SERVER_ERROR_CONSOLE_BANNED,0x80550D28,Console banned
 NP-32091-5,,,"Trophy data is corrupted. // Step 1: Back up the save data using USB device or PS+ online storage, and then go to [Settings] > [Initialization] > [Initialize PS4] and try the PS4 initialization. Step 2: Transfer the saved data back to PS4 and retry the Trophy sync."
-NP-32222-1,SCE_NP_WEBAPI_ERROR_NOT_SIGNED_IN,0x80552907,Called API which requires user to be signed in when not be signed in. You can check the status of the PSN here.
+NP-32222-1,SCE_NP_WEBAPI_ERROR_NOT_SIGNED_IN,0x80552907,Called API which requires user to be signed in when not be signed in.Â You can check the status of the PSN here.
 NP-32244-5,SCE_NP_AUTH_SERVER_ERROR_OBSOLETE_11,0x80552A11,Account suspended - obsolete error code
 NP-32245-6,SCE_NP_AUTH_SERVER_ERROR_OBSOLETE_12,0x80552A18,Console suspended - obsolete error code
 NP-32251-3,SCE_NP_AUTH_SERVER_ERROR_OBSOLETE_18,0x80552A18,Account closed - obsolete error code
 NP-34846-5,,,"Trophy error // Step 1: Close the application and restart the system. Step 2: If the error occurs again, back up your saved data, and then go to [Settings] > [Initialization] and choose [Initialize PS4]."
 NP-34926-4,SCE_NP_COMMUNITY_SERVER_ERROR_SAVEDATA_UPDATED,0x8055088A,"Since the save data of the same title was uploaded to PS plus's cloud save from two or more hardware, the latter became an error by the conflict. // You will see a message that says Saved data with the same name was uploaded from another PS4. Do you want to overwrite this saved data? Choose [Yes] to overwrite the data and upload your saved data."
-NP-35000-8,,,PSN is undergoing maintenance // PSN is undergoing maintenance. Please try again later. You can check the status of the PSN here.
+NP-35000-8,,,PSN is undergoing maintenance // PSN is undergoing maintenance. Please try again later.Â You can check the status of the PSN here.
 NW-31141-0,SCE_NET_ERROR_EPERM,0x80410101,Internal error
 NW-31142-1,SCE_NET_ERROR_ENOENT,0x80410102,No resources are in wait state
 NW-31143-2,SCE_NET_ERROR_ESRCH,0x80410103,Internal error
@@ -1313,7 +1313,7 @@ NW-31196-0,SCE_NET_ERROR_EISCONN,0x80410138,Specified connection is already esta
 NW-31197-1,SCE_NET_ERROR_ENOTCONN,0x80410139,Specified connection does not exist
 NW-31198-2,SCE_NET_ERROR_ESHUTDOWN,0x8041013A,Shutdown in progress
 NW-31199-3,SCE_NET_ERROR_ETOOMANYREFS,0x8041013B,Too many multicast addresses specified
-NW-31200-6,SCE_NET_ERROR_ETIMEDOUT,0x8041013C,"Timeout occurred (indicates a protocol timeout, unlike SCE_NET_EAGAIN) // Failed to update the system software due to connection error // Step 1: If you have access to a PC, follow these instructions to update your system software using a USB device. Step 2: If you don't have access to a PC, try Internet connection test at [Settings] > [Network] > [Test Internet Connection] and make sure you can connect to the network. Step 3:If you are able to connect, retry updating at [Settings] > [System Software Update]. Step 4: If you're unable to connect, the network may be experiencing issues. You can check the status of the PSN here. Turn off other devices that are connected to your network to reduce stress and try the update again."
+NW-31200-6,SCE_NET_ERROR_ETIMEDOUT,0x8041013C,"Timeout occurred (indicates a protocol timeout, unlike SCE_NET_EAGAIN) // Failed to update the system software due to connection error // Step 1: If you have access to a PC, follow these instructions to update your system software using a USB device. Step 2: If you don't have access to a PC, try Internet connection test at [Settings] > [Network] > [Test Internet Connection] and make sure you can connect to the network. Step 3:If you are able to connect, retry updating at [Settings] > [System Software Update]. Step 4: If you're unable to connect, the network may be experiencing issues.Â You can check the status of the PSN here. Turn off other devices that are connected to your network to reduce stress and try the update again."
 NW-31201-7,SCE_NET_ERROR_ECONNREFUSED,0x8041013D,Connection request was denied
 NW-31202-8,SCE_NET_ERROR_ELOOP,0x8041013E,Internal error
 NW-31203-9,SCE_NET_ERROR_ENAMETOOLONG,0x8041013F,Internal error
@@ -1386,16 +1386,16 @@ NW-31315-3,SCE_NET_CTL_ERROR_WIFI_DEAUTHED,0x80412116,Deauthorized by access poi
 NW-31316-4,SCE_NET_CTL_ERROR_WIFI_BEACON_LOST,0x80412117,Could not receive beacon from access point.
 NW-31319-7,SCE_NET_CTL_ERROR_IPCINT_OUT_OF_MEMORY,0x80412183,Could not allocate memory.
 NW-31323-2,SCE_NET_CTL_ERROR_IPCINT_BUSY,0x80412187,Not executed due to processing of connect or scan.
-NW-31332-2,SCE_NET_CTL_ERROR_IPCINT_INVALID_SSID,0x80412190,The specified SSID is invalid.
-NW-31333-3,SCE_NET_CTL_ERROR_IPCINT_INVALID_SSIDS_NUM,0x80412191,The specified number of SSIDs is invalid.
+NW-31332-2,SCE_NET_CTL_ERROR_IPCINT_INVALID_SSID,0x80412190,The specifiedÂ SSIDÂ is invalid.
+NW-31333-3,SCE_NET_CTL_ERROR_IPCINT_INVALID_SSIDS_NUM,0x80412191,The specified number ofÂ SSIDsÂ is invalid.
 NW-31337-7,SCE_NET_CTL_ERROR_IPCINT_SCANINFO_LOCKED,0x80412199,Could not get scan information due to processing of scan.
-NW-31339-9,SCE_NET_CTL_ERROR_IPCINT_INVALID_SCANINFO_BSSID,0x8041219D,The specified BSSID for getting scan information is invalid.
+NW-31339-9,SCE_NET_CTL_ERROR_IPCINT_INVALID_SCANINFO_BSSID,0x8041219D,The specifiedÂ BSSIDÂ for getting scan information is invalid.
 NW-31340-1,SCE_NET_CTL_ERROR_IPCINT_INVALID_SIZE,0x8041219E,The value of size member variable of specified structure is invalid.
 NW-31341-2,SCE_NET_CTL_ERROR_IPCINT_NO_SCANINFO,0x8041219F,There is no scan result.
 NW-31367-0,,,Could not open wireless device. // Restart the PS4 system.
 NW-31446-8,SCE_HTTP_ERROR_BEFORE_INIT,0x80431001,Before library initialization
 NW-31447-9,SCE_HTTP_ERROR_ALREADY_INITED,0x80431020,Library is already initialized
-NW-31448-0,SCE_HTTP_ERROR_BUSY,0x80431021,"The specified resource is under use // Connection error // PSN or the game's server may be temporarily unavailable. Please check the status of the game's server via its website. You can check the status of the PSN here.. This is likely a temporary issue, so please try again later."
+NW-31448-0,SCE_HTTP_ERROR_BUSY,0x80431021,"The specified resource is under use // Connection error // PSN or the game's server may be temporarily unavailable. Please check the status of the game's server via its website. You canÂ check the status of the PSN here.. This is likely a temporary issue, so please try again later."
 NW-31449-1,SCE_HTTP_ERROR_OUT_OF_MEMORY,0x80431022,Insufficient free memory space
 NW-31450-3,SCE_HTTP_ERROR_NOT_FOUND,0x80431025,The specified element does not exist
 NW-31451-4,SCE_HTTP_ERROR_UNKNOWN_SCHEME,0x80431061,Invalid scheme was specified
@@ -1403,7 +1403,7 @@ NW-31452-5,SCE_HTTP_ERROR_NETWORK,0x80431063,Unused
 NW-31453-6,SCE_HTTP_ERROR_BAD_RESPONSE,0x80431064,Response is invalid // Delayed server response. // Try Internet connection test at [Settings] > [Network] > [Test Internet Connection]. Check that the internet status is valid.
 NW-31454-7,SCE_HTTP_ERROR_BEFORE_SEND,0x80431065,The specified request has not been sent yet
 NW-31455-8,SCE_HTTP_ERROR_AFTER_SEND,0x80431066,Request API was called after request transmission
-NW-31456-9,SCE_HTTP_ERROR_TIMEOUT,0x80431068,"Connection error // PSN or the game's server may be temporarily unavailable. Please check the status of the game's server via its website. You can check the status of the PSN here.. This is likely a temporary issue, so please try again later."
+NW-31456-9,SCE_HTTP_ERROR_TIMEOUT,0x80431068,"Connection error // PSN or the game's server may be temporarily unavailable. Please check the status of the game's server via its website. You canÂ check the status of the PSN here.. This is likely a temporary issue, so please try again later."
 NW-31457-0,SCE_HTTP_ERROR_UNKNOWN_AUTH_TYPE,0x80431069,The specified authentication type unknown
 NW-31458-1,SCE_HTTP_ERROR_INVALID_VERSION,0x8043106A,Invalid version was specified
 NW-31459-2,SCE_HTTP_ERROR_UNKNOWN_METHOD,0x8043106B,The value specified in method is invalid
@@ -1417,7 +1417,7 @@ NW-31466-0,SCE_HTTP_ERROR_ABORTED,0x80431080,Interruption API is called
 NW-31467-1,SCE_HTTP_ERROR_UNKNOWN,0x80431081,Internal error
 NW-31468-2,SCE_HTTP_ERROR_PROXY,0x80431084,Failed to establish the connection to the HTTP Proxy
 NW-31469-3,SCE_HTTP_ERROR_BROKEN,0x80431085,Internal error
-NW-31470-5,SCE_HTTP_ERROR_INVALID_ID,0x80431100,Invalid object ID was specified
+NW-31470-5,SCE_HTTP_ERROR_INVALID_ID,0x80431100,InvalidÂ object IDÂ was specified
 NW-31471-6,SCE_HTTP_ERROR_OUT_OF_SIZE,0x80431104,The buffer size is insufficient
 NW-31472-7,SCE_HTTP_ERROR_INVALID_VALUE,0x804311FE,Invalid value was specified
 NW-31473-8,SCE_HTTP_ERROR_PARSE_HTTP_NOT_FOUND,0x80432025,The specified header field does not exist
@@ -1442,7 +1442,7 @@ NW-31491-8,SCE_HTTP_ERROR_RESOLVER_ESERVERREFUSED,0x80436009,Inquiry denied
 NW-31492-9,SCE_HTTP_ERROR_RESOLVER_ENORECORD,0x8043600A,Inquired record does not exist
 NW-32626-9,SCE_RUDP_ERROR_NOT_INITIALIZED,0x80770001,Library was not initialized
 NW-32627-0,SCE_RUDP_ERROR_ALREADY_INITIALIZED,0x80770002,Library has already been initialized
-NW-32628-1,SCE_RUDP_ERROR_INVALID_CONTEXT_ID,0x80770003,Context ID is invalid
+NW-32628-1,SCE_RUDP_ERROR_INVALID_CONTEXT_ID,0x80770003,Context IDÂ is invalid
 NW-32629-2,SCE_RUDP_ERROR_INVALID_ARGUMENT,0x80770004,Any argument is invalid
 NW-32630-4,SCE_RUDP_ERROR_INVALID_OPTION,0x80770005,Option argument is invalid
 NW-32631-5,SCE_RUDP_ERROR_INVALID_MUXMODE,0x80770006,Mux mode argument is invalid
@@ -1470,7 +1470,7 @@ NW-32652-8,SCE_RUDP_ERROR_MSG_MALFORMED,0x8077001B,Received data is not an RUDP 
 NW-32653-9,SCE_RUDP_ERROR_ADDR_IN_USE,0x8077001C,There is another context that has the same socket connected to the same remote address
 NW-32654-0,SCE_RUDP_ERROR_ALREADY_BOUND,0x8077001D,Socket is already bound
 NW-32655-1,SCE_RUDP_ERROR_ALREADY_EXISTS,0x8077001E,Polling for this context already exists
-NW-32656-2,SCE_RUDP_ERROR_INVALID_POLL_ID,0x8077001F,Poll ID is invalid
+NW-32656-2,SCE_RUDP_ERROR_INVALID_POLL_ID,0x8077001F,Poll IDÂ is invalid
 NW-32657-3,SCE_RUDP_ERROR_TOO_MANY_CONTEXTS,0x80770020,Too many contexts
 NW-32658-4,SCE_RUDP_ERROR_IN_PROGRESS,0x80770021,Operation is in progress
 NW-32659-5,SCE_RUDP_ERROR_NO_EVENT_HANDLER,0x80770022,Common event handler has not been registered
@@ -1480,16 +1480,16 @@ NW-32662-9,SCE_RUDP_ERROR_ALREADY_ESTABLISHED,0x80770025,Connection is already e
 NW-32663-0,SCE_RUDP_ERROR_KEEP_ALIVE_FAILURE,0x80770026,Connection was closed due to keep-alive timeout
 NW-32664-1,SCE_RUDP_ERROR_MEMLEAK,0x807700FF,Rudp didn't free all of its allocated memory
 NW-34347-1,SCE_HTTP_ERROR_INSUFFICIENT_STACKSIZE,0x80431076,Insufficient stack size
-SU-30631-3,,0x80180009,"USB error occured while updating the system software. // Step 1: Delete the Update file from the USB storage device. Step 2: Clear your browser cache and redownload the PUP file here. Then retry the system update. Step 3: If the error persists, try another USB device. Step 4: If the error occurs again there may be an issue with the PS4's hard drive (HDD). If you have previously changed the HDD, use the other HDD. If not, please visit our Contact page to contact SCEA for additional technical support."
+SU-30631-3,,0x80180009,"USB error occured while updating the system software. // Step 1: Delete the Update file from the USB storage device. Step 2: Clear your browser cache andÂ redownload the PUP file here. Then retry the system update. Step 3: If the error persists, try another USB device. Step 4: If the error occurs again there may be an issue with the PS4's hard drive (HDD). If you have previously changed the HDD, use the other HDD. If not, please visit ourÂ ContactÂ page to contact SCEA for additional technical support."
 SU-30632-4,,0x8018000a,
 SU-30633-5,,0x8018000b,
-SU-30634-6,,0x8018000c,"USB error occured while updating the system software. // Step 1: Delete the Update file from the USB storage device. Step 2: Clear your browser cache and redownload the PUP file here. Then retry the system update. Step 3: If the error persists, try another USB device. Step 4: If the error occurs again there may be an issue with the PS4's hard drive (HDD). If you have previously changed the HDD, use the other HDD. If not, please visit our Contact page to contact SCEA for additional technical support."
+SU-30634-6,,0x8018000c,"USB error occured while updating the system software. // Step 1: Delete the Update file from the USB storage device. Step 2: Clear your browser cache andÂ redownload the PUP file here. Then retry the system update. Step 3: If the error persists, try another USB device. Step 4: If the error occurs again there may be an issue with the PS4's hard drive (HDD). If you have previously changed the HDD, use the other HDD. If not, please visit ourÂ ContactÂ page to contact SCEA for additional technical support."
 SU-30645-8,,0x80180859,"Failed to update the system software. The update file may be corrupted. // If you are updating the system via Internet, go to [Settings] > [System Software Update] and retry update. If you are updating via USB storage device, delete the update file on USB and redownload the update file from playstation.com. Then retry updating at [Settings] > [System Software Update]"
 SU-30646-9,,0x8018085a,
 SU-30647-0,,0x8018085b,
 SU-30648-1,,0x8018085c,
 SU-30649-2,,0x8018085d,"Failed to update the system software. The update file may be corrupted. // If you are updating the system via Internet, go to [Settings] > [System Software Update] and retry update. If you are updating via USB storage device, delete the update file on USB and redownload the update file from playstation.com. Then retry updating at [Settings] > [System Software Update] OR Devkit/Testkit -> [ERROR]The PUP file version is too low to be used for downgrading from the current version of this devkit. (when attempting to downgrade below the minimal version of a devkit with a downgrader pup)"
-SU-30683-0,,0x80180fff,"Update via USB storage failed // Step 1: Go to Safe Mode, choose option ?7. Initialize PS4], and follow the onscreen instructions. You can find more information on Safe Mode here. Step 2: If the error occurs again, please visit SCEA Contact page for additional technical support."
+SU-30683-0,,0x80180fff,"Update via USB storage failed // Step 1: Go toÂ Safe Mode, choose option ?7. Initialize PS4], and follow the onscreen instructions. You can find more information onÂ Safe ModeÂ here. Step 2: If the error occurs again, please visit SCEAÂ ContactÂ page for additional technical support."
 SU-30696-4,,0x8018220c,"Failed to update the system software. The update file may be corrupted. // If you are updating the system via Internet, go to [Settings] > [System Software Update] and retry update. If you are updating via USB storage device, delete the update file on USB and redownload the update file from playstation.com. Then retry updating at [Settings] > [System Software Update]"
 SU-30709-9,,0x80182260,
 SU-30733-6,,0x80182605,The latest version of the system software is already installed. // No Action Required.
@@ -1554,15 +1554,15 @@ WS-37305-8,SCE_NP_WEBAPI_SERVER_ERROR_SOCIAL_NETWORK_RESOURCE_NOT_FOUND,0x82305f
 WS-37337-3,SCE_NP_WEBAPI_SERVER_ERROR_OAUTH_28_ACCOUNT_HAS_BEEN_BANNED,0x82e0001c,"This PSN account has been temporarily suspended
 This PlayStation Network account has been temporarily suspended from accessing PSN services for violating our Terms of Service and User Agreement. Please check the e-mail account associated with the account for further information."
 WS-37338-4,SCE_NP_WEBAPI_SERVER_ERROR_OAUTH_29_CONSOLE_HAS_BEEN_BANNED,0x82e0001d,"This PS4 console has been permanently banned from the PlayStation Network
-This console has been permanently banned from accessing PSN services for violating our Terms of Service and User Agreement. Please refer to this support article for more information on bans and suspensions."
+This console has been permanently banned from accessing PSN services for violating our Terms of Service and User Agreement. Please refer to this supportÂ articleÂ for more information on bans and suspensions."
 WS-37368-7,SCE_NP_WEBAPI_SERVER_ERROR_OAUTH_4176_ACCOUNT_HAS_BEEN_BANNED,0x82e01050,This PSN account has been banned
-WS-37431-8,SCE_NP_WEBAPI_SERVER_ERROR_OAUTH_HTTP_STATUS_CODE_502_BAD_GATEWAY,0x82e101f6,"Connection to server failed // Step 1: PSN or the game's server may be temporarily unavailable. Please check the status of the game's server via its website. You can check the status of the PSN here.
-Step 2 : If the servers are active, run the Internet connection test at [Settings] > [Network] > [Test Internet Connection] and make sure you can connect to the network.
+WS-37431-8,SCE_NP_WEBAPI_SERVER_ERROR_OAUTH_HTTP_STATUS_CODE_502_BAD_GATEWAY,0x82e101f6,"Connection to server failed // Step 1: PSN or the game's server may be temporarily unavailable. Please check the status of the game's server via its website.Â You can check the status of the PSN here.
+Step 2Â : If the servers are active, run the Internet connection test at [Settings] > [Network] > [Test Internet Connection] and make sure you can connect to the network.
 Step 3: Update your router to the latest firmware. Turn off other devices that are connected to your network to reduce stress. If this does not work, try again later as the server may be experiencing high volume."
 WS-37470-1,SCE_NP_WEBAPI_SERVER_ERROR_HTTP_STATUS_CODE_404_NOT_FOUND,0x82f00194,Error occurred and the HTTP status code with or without non-JSON body was returned (HTTP status code: 404)
-WS-37504-9,SCE_NP_WEBAPI_SERVER_ERROR_HTTP_STATUS_CODE_503_SERVICE_UNAVAILABLE,0x82f001f7,PSN is undergoing maintenance // PSN is undergoing maintenance. Please try again later. You can check the status of the PSN here.
-WS-37505-0,SCE_NP_WEBAPI_SERVER_ERROR_HTTP_STATUS_CODE_504_GATEWAY_TIMEOUT,0x82f001f8,"Connection to server failed // Step 1: PSN or the game's server may be temporarily unavailable. Please check the status of the game's server via its website. You can check the status of the PSN here.
-Step 2 : If the servers are active, run the Internet connection test at [Settings] > [Network] > [Test Internet Connection] and make sure you can connect to the network.
+WS-37504-9,SCE_NP_WEBAPI_SERVER_ERROR_HTTP_STATUS_CODE_503_SERVICE_UNAVAILABLE,0x82f001f7,PSN is undergoing maintenance // PSN is undergoing maintenance. Please try again later.Â You can check the status of the PSN here.
+WS-37505-0,SCE_NP_WEBAPI_SERVER_ERROR_HTTP_STATUS_CODE_504_GATEWAY_TIMEOUT,0x82f001f8,"Connection to server failed // Step 1: PSN or the game's server may be temporarily unavailable. Please check the status of the game's server via its website.Â You can check the status of the PSN here.
+Step 2Â : If the servers are active, run the Internet connection test at [Settings] > [Network] > [Test Internet Connection] and make sure you can connect to the network.
 Step 3: Update your router to the latest firmware. Turn off other devices that are connected to your network to reduce stress. If this does not work, try again later as the server may be experiencing high volume."
 WV-33894-7,SCE_WEBVIEW_NETWORK_ERROR_UNSUPPORTED_PROTOCOL,0x80E80001,Invalid scheme was specified
 WV-33895-8,SCE_WEBVIEW_NETWORK_ERROR_FAILED_INIT,0x80E80002,Very early initialization code failed. This is likely to be an internal error or problem.
@@ -1604,7 +1604,7 @@ WV-33930-8,SCE_WEBVIEW_NETWORK_ERROR_SSL_SHUTDOWN_FAILED,0x80E80050,Failed to sh
 WV-33931-9,SCE_WEBVIEW_NETWORK_ERROR_AGAIN,0x80E80051,Error when some network data is lost.
 WV-33932-0,SCE_WEBVIEW_NETWORK_ERROR_SSL_ISSUER_ERROR,0x80E80053,Issuer check failed.
 WV-33933-1,SCE_WEBVIEW_NETWORK_ERROR_CHUNK_FAILED,0x80E80058,Error when CRC check error is detected.
-WS-37504-9,SCE_NP_WEBAPI_SERVER_ERROR_HTTP_STATUS_CODE_503_SERVICE_UNAVAILABLE,0x82F001F7,PSN is undergoing maintenance // PSN is undergoing maintenance. Please try again later. You can check the status of the PSN here.
+WS-37504-9,SCE_NP_WEBAPI_SERVER_ERROR_HTTP_STATUS_CODE_503_SERVICE_UNAVAILABLE,0x82F001F7,PSN is undergoing maintenance // PSN is undergoing maintenance. Please try again later.Â You can check the status of the PSN here.
 SU-30746-0,,,"Could not find file required for system software update. Turn off your PS4 system. Once all lights on your PS4 are off, hold down the power button until you hear 2 beeps; one immediately and one after 7 seconds. Your PS4 will now boot in Safe Mode. Connect your DS4 controller using a USB cable and press the PS button. Select option 3: ""Update System Software"" and then ""Update using Internet"".
 "
 NP-36006-5,,,"Your trophy data may be corrupted. Use a USB device to back up any data. You can find full instructions here. Delete your local user. Make a new local user and sign into your PSN account. If you still see this error, try restarting your system in safe mode option 6. You can find full instructions here. If option 6 doesn't work try safe mode option 7.
