@@ -1,11 +1,30 @@
+
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="utf-8">
-<title></title>
+ <head>
+  <title>CSV File to HTML Table Using AJAX jQuery</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ </head>
+ <body>
+  <div class="container">
+   <div class="table-responsive">
+    <h1 align="center">CSV File to HTML Table Using AJAX jQuery</h1>
+    <br />
+    <div align="center">
+    </div>
+    <br />
+    <div id="employee_table">
+    </div>
+   </div>
+  </div>
+ </body>
+</html>
+
 <script>
 window.onload=function(){ with (new XMLHttpRequest()) {
-  onreadystatechange=cb; open('GET','Error_Code.txt',true); responseType='text';send();
+  onreadystatechange=cb; open('GET','csv.txt',true); responseType='text';send();
 }}
 function cb(){if(this.readyState===4)document.getElementById('main')
                                              .innerHTML=tbl(this.responseText); }
@@ -16,9 +35,3 @@ function tbl(csv){ // do whatever is necessary to create your table here ...
                                      +'</td></tr>';})
            .join('\n'); }
 </script>
-</head>
-<body>
-<h2>Hey, this is my fabulous "dynamic" html page!</h2>
-<table id="main"></table>
-</body>
-</html>
