@@ -24,7 +24,7 @@
 
 <script>
 window.onload=function(){ with (new XMLHttpRequest()) {
-  onreadystatechange=cb; open('GET','csv.txt',true); responseType='text';send();
+  onreadystatechange=cb; open('GET','Error_Code.txt',true); responseType='text';send();
 }}
 function cb(){if(this.readyState===4)document.getElementById('main')
                                              .innerHTML=tbl(this.responseText); }
