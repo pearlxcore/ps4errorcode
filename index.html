@@ -23,13 +23,32 @@
 </html>
 
 <script>
-(function( $ ){
-   $.fn.myfunction = function() {
-      alert('hello world');
-      return this;
-   }; 
-})( jQuery );
-
-window.onload = myfunction;
- 
+  $.ajax({
+   url:"Error_Code.csv",
+   dataType:"text",
+   success:function(data)
+   {
+    var Error_Code = data.split(/\r?\n|\r/);
+    var table_data = '<table class="table table-bordered table-striped">';
+    for(var count = 0; count<Error_Code.length; count++)
+    {
+     var cell_data = Error_Code[count].split(",");
+     table_data += '<tr>';
+     for(var cell_count=0; cell_count<cell_data.length; cell_count++)
+     {
+      if(count === 0)
+      {
+       table_data += '<th>'+cell_data[cell_count]+'</th>';
+      }
+      else
+      {
+       table_data += '<td>'+cell_data[cell_count]+'</td>';
+      }
+     }
+     table_data += '</tr>';
+    }
+    table_data += '</table>';
+    $('#Error_Code').html(table_data);
+   }
+  });
 </script>
