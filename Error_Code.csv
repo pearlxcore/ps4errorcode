@@ -1,4 +1,4 @@
-Error_code;Name;Remarks
+Error code;Name;Remarks
 CE-30001-4;SCE_KERNEL_ERROR_EPERM;Operation not permitted
 CE-30002-5;SCE_KERNEL_ERROR_ENOENT;No such file or directory
 CE-30003-6;SCE_KERNEL_ERROR_ESRCH;No such process
