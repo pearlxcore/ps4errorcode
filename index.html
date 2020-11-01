@@ -84,7 +84,7 @@ width: 100%;
    success:function(data)
    {
     var Error_Code = data.split(/\r?\n|\r/);
-    var table_data = '<table class="table table-bordered table-striped">';
+    var table_data = '<table class="table table-bordered table-striped" style="width:100%">';
     for(var count = 0; count<Error_Code.length; count++)
     {
      var cell_data = Error_Code[count].split(";");
