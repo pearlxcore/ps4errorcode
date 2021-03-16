@@ -27,18 +27,18 @@
       <h4>Error Code Structure</h4></br>
       <h5>The errors that occur in libraries included in the SDK and in the system software are each allocated a hexadecimal error code with a macro constant for handling by applications, as well as a short error code to display for users.</h5>
       
-      <code>Macro constant &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Hexadecimal Error Code | Short Error Code</code></br>
-      <code>SCE_KERNEL_ERROR_ENOENT | 0x80020002             | CE-30002-5</code></br>
+      <code>Macro constant &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Hexadecimal Error Code | Short Error Code</code></br>
+      <code>SCE_KERNEL_ERROR_ENOENT | 0x80020002 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| CE-30002-5&nbsp;&nbsp;&nbsp;&nbsp;</code></br>
       </br>
       <h5>The error codes returned by libraries and the system software are hexadecimal error codes. The hexadecimal error codes are 32-bit negative numbers with the upper 16 bits representing the library or module where the error occurred. Short error codes are character strings consisting of a two letter facility group ("CE", "NW", "NP", etc.) and a 5+1 digit short error number connected by hyphens.</h5>
       
       <code>Short Error Code | Facility Group | Short Error Number</code></br>
-      <code>CE-30002-5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| CE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| 30002-5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code></br>
+      <code>CE-30002-5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| CE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| 30002-5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code></br>
       </br>
 <h5>Exceptional errors that are not allocated a short error number will be displayed for users as short error codes using "E" and the hexadecimal error code connected by a hyphen.</h5>
       
       <code>Short Error Code | Facility Group | Hexadecimal Error Code</code></br>
-      <code>E-80000000&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| E &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| 80000000&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code></br>
+      <code>E-80000000&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| E &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| 80000000&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code></br>
       </br>
 
       <div id='table-container'></div>
